@@ -1,6 +1,6 @@
 import { mutableHandler } from "./baseHandler";
 
-export const creativeMap = new WeakMap();
+export const reactiveMap = new WeakMap();
 export const readonlyMap = new WeakMap();
 
 export const shallowReadonlyMap = new WeakMap();
@@ -26,5 +26,5 @@ function createCreativeObject(
 }
 
 export function reactive(target: object) {
-  return createCreativeObject(target, creativeMap, mutableHandler);
+  return createCreativeObject(target, reactiveMap, mutableHandler);
 }
