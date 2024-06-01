@@ -1,0 +1,22 @@
+{
+  "name": "@mini-vue/runtime-core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "estarhp <3136551640@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "registry": "http://mirrors.cloud.tencent.com/npm/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/runtime-core.test.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@mini-vue/reactivity": "workspace:*"
+  }
+}

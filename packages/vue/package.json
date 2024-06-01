@@ -1,0 +1,25 @@
+{
+  "name": "vue",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "estarhp <3136551640@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "registry": "http://mirrors.cloud.tencent.com/npm/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/vue.test.js"
+  },
+  "dependencies": {
+    "@mini-vue/runtime-core": "workspace:*"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
