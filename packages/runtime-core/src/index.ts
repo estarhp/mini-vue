@@ -1,3 +1,1 @@
-import { ref } from "@mini-vue/reactivity";
-
-export { ref };
+export * from "@mini-vue/reactivity";

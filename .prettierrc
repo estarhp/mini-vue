@@ -1,3 +1,4 @@
 {
-
+  "endOfLine": "auto",
+  "no-used-vars": "warn"
 }
