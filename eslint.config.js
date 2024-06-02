@@ -10,4 +10,7 @@ export default [
   ...tseslint.configs.recommended,
   eslintConfigPrettier,
   eslintPluginPrettierRecommended,
+  {
+    ignores: ["**/node_modules/", ".git/", "**/dist/"],
+  },
 ];
