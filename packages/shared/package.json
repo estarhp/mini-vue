@@ -1,22 +1,18 @@
 {
-  "name": "@mini-vue/reactivity",
+  "name": "@mini-vue/shared",
   "version": "0.0.0",
-  "description": "reactivity of mini-vue",
+  "description": "> TODO: description",
   "author": "estarhp <3136551640@qq.com>",
   "homepage": "",
   "license": "ISC",
   "directories": {
-    "lib": "dist",
     "test": "__tests__"
   },
   "publishConfig": {
     "registry": "http://mirrors.cloud.tencent.com/npm/"
   },
   "scripts": {
-    "test": "node ./__tests__/reactivity.test.js"
-  },
-  "dependencies": {
-    "@mini-vue/shared": "workspace:*"
+    "test": "node ./__tests__/shared.test.js"
   },
   "type": "module"
 }

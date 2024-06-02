@@ -45,13 +45,19 @@ importers:
         specifier: ^7.11.0
         version: 7.11.0(eslint@9.4.0)(typescript@5.4.5)
 
-  packages/reactivity: {}
+  packages/reactivity:
+    dependencies:
+      '@mini-vue/shared':
+        specifier: workspace:*
+        version: link:../shared
 
   packages/runtime-core:
     dependencies:
       '@mini-vue/reactivity':
         specifier: workspace:*
         version: link:../reactivity
+
+  packages/shared: {}
 
   packages/vue:
     dependencies:

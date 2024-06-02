@@ -1,4 +1,6 @@
 // 存储所有的effect 对象
-export function createDep(effects?) {
+import { ReactiveEffect } from "./effect";
+
+export function createDep(effects?: ReactiveEffect[]): Set<ReactiveEffect> {
   return new Set(effects);
 }
